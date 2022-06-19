@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CB79DEB285FA07900E68B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB79DEA285FA07900E68B80 /* Assets.xcassets */; };
+		5CB79DEE285FA11700E68B80 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79DED285FA11700E68B80 /* Color.swift */; };
 		5CC11D3D2821AD69000C0611 /* CryptoBankingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11D3C2821AD69000C0611 /* CryptoBankingAppApp.swift */; };
 		5CC11D3F2821AD69000C0611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11D3E2821AD69000C0611 /* ContentView.swift */; };
-		5CC11D412821AD6C000C0611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC11D402821AD6C000C0611 /* Assets.xcassets */; };
 		5CC11D442821AD6C000C0611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC11D432821AD6C000C0611 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CB79DEA285FA07900E68B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		5CB79DED285FA11700E68B80 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5CC11D392821AD69000C0611 /* CryptoBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoBankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC11D3C2821AD69000C0611 /* CryptoBankingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBankingAppApp.swift; sourceTree = "<group>"; };
 		5CC11D3E2821AD69000C0611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5CC11D402821AD6C000C0611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CC11D432821AD6C000C0611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CB79DEC285FA0FB00E68B80 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79DED285FA11700E68B80 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5CC11D302821AD68000C0611 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +61,10 @@
 		5CC11D3B2821AD69000C0611 /* CryptoBankingApp */ = {
 			isa = PBXGroup;
 			children = (
+				5CB79DEC285FA0FB00E68B80 /* Extensions */,
 				5CC11D3C2821AD69000C0611 /* CryptoBankingAppApp.swift */,
 				5CC11D3E2821AD69000C0611 /* ContentView.swift */,
-				5CC11D402821AD6C000C0611 /* Assets.xcassets */,
+				5CB79DEA285FA07900E68B80 /* Assets.xcassets */,
 				5CC11D422821AD6C000C0611 /* Preview Content */,
 			);
 			path = CryptoBankingApp;
@@ -126,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC11D442821AD6C000C0611 /* Preview Assets.xcassets in Resources */,
-				5CC11D412821AD6C000C0611 /* Assets.xcassets in Resources */,
+				5CB79DEB285FA07900E68B80 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				5CC11D3F2821AD69000C0611 /* ContentView.swift in Sources */,
 				5CC11D3D2821AD69000C0611 /* CryptoBankingAppApp.swift in Sources */,
+				5CB79DEE285FA11700E68B80 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
