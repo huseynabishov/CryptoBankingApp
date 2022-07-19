@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CB1ED0928872032000D71B3 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB1ED0828872032000D71B3 /* LocalFileManager.swift */; };
 		5CB79DEB285FA07900E68B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB79DEA285FA07900E68B80 /* Assets.xcassets */; };
 		5CB79DEE285FA11700E68B80 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79DED285FA11700E68B80 /* Color.swift */; };
 		5CB79DF4285FA29500E68B80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79DF3285FA29500E68B80 /* HomeView.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CB1ED0828872032000D71B3 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		5CB79DEA285FA07900E68B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		5CB79DED285FA11700E68B80 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5CB79DF3285FA29500E68B80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				5CC8A0FB2885E78B00934345 /* NetworkingManager.swift */,
+				5CB1ED0828872032000D71B3 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				5CC8A0EF2885A46E00934345 /* CoinRowView.swift in Sources */,
 				5CC8A0F52885B7AD00934345 /* HomeViewModel.swift in Sources */,
 				5CC11D3F2821AD69000C0611 /* ContentView.swift in Sources */,
+				5CB1ED0928872032000D71B3 /* LocalFileManager.swift in Sources */,
 				5CB79DF4285FA29500E68B80 /* HomeView.swift in Sources */,
 				5CC8A0FF2885FACF00934345 /* CoinImageView.swift in Sources */,
 				5CC11D3D2821AD69000C0611 /* CryptoBankingAppApp.swift in Sources */,
